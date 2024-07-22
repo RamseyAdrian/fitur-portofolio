@@ -13,3 +13,7 @@ Route::get('/achievement', function () {
 Route::get('/detail-achievement', function () {
     return view('detail-achievement');
 })->name('achievement.detail');
+
+Route::get('/add-achievement', function () {
+    return view('add-achievement');
+})->name('achievement.add');

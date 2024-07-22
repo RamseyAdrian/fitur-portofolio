@@ -23,17 +23,6 @@
                 Portfolio</a>
         </div>
 
-        <div class="flex gap-5 mt-12 border-b pb-5">
-            <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
-                aria-current="page">About</a>
-            <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
-                aria-current="page">Experience</a>
-            <a href="{{ route('achievement') }}" class="px-2.5 py-2 text-sm bg-blue-500 text-white font-medium rounded"
-                aria-current="page">Achievement</a>
-            <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium" aria-current="page">Work
-                Experience</a>
-        </div>
-
         <div class="mt-8">
             @yield('content')
         </div>

@@ -40,8 +40,8 @@
                         class="px-2.5 py-2 bg-blue-500 text-sm text-white font-medium rounded flex items-center gap-2"
                         aria-current="page">Index<img src="{{ url('images/hamburger-icon.png') }}" class="w-4 h-4"
                             alt=""></a>
-                    <a href="#"
-                        class="px-2.5 py-2 rounded text-sm hover:bg-gray-200 rounded hover:font-medium flex items-center gap-2"
+                    <a href="{{ route('achievement.add') }}"
+                        class="px-2.5 py-2 rounded border text-sm hover:bg-gray-200 rounded hover:font-medium flex items-center gap-2"
                         aria-current="page">New
                         Achievement<img src="{{ url('images/plus-icon.png') }}" class="w-4 h-4" alt=""></a>
                 </div>
