@@ -1,3 +1,5 @@
+const { gray } = require('tailwindcss/colors');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -52,6 +54,12 @@ module.exports = {
         80: '20rem',
         96: '24rem',
       },
+      colors: {
+        brand: {
+          idle: '#1C8BC0',
+          hover: '#037EB9'
+        }
+      }
     },
   },
   plugins: [

@@ -3,7 +3,7 @@
 
 <head>
     @include('layouts.head')
-    <title>@yield('title')</title>
+    <title>About Me</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <div class="flex gap-5">
             <a href="#" class="" aria-current="page">About</a>
             <a href="#" class="" aria-current="page">Experience</a>
-            <a href="#" class="" aria-current="page">Achievement</a>
+            <a href="{{ route('achievement') }}" class="" aria-current="page">Achievement</a>
             <a href="#" class="" aria-current="page">Work Experience</a>
         </div>
 
