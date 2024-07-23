@@ -18,7 +18,8 @@
                     <p class="text-medium text-gray-400">Ilmu Komputer</p>
                 </div>
             </div>
-            <a href="#" class="p-2.5 text-sm bg-brand-idle hover:bg-brand-hover rounded text-white font-medium"
+            <a href="{{ route('portofolio.share') }}"
+                class="p-2.5 text-sm bg-brand-idle hover:bg-brand-hover rounded text-white font-medium"
                 aria-current="page">Share
                 Portfolio</a>
         </div>

@@ -17,7 +17,8 @@
                     <p class="text-medium text-gray-400">Ilmu Komputer</p>
                 </div>
             </div>
-            <a href="#" class="p-2.5 text-sm bg-brand-idle hover:bg-brand-hover rounded text-white font-medium"
+            <a href="{{ route('portofolio.share') }}"
+                class="p-2.5 text-sm bg-brand-idle hover:bg-brand-hover rounded text-white font-medium"
                 aria-current="page">Share
                 Portfolio</a>
         </div>
@@ -29,7 +30,8 @@
                 aria-current="page">Experience</a>
             <a href="{{ route('achievement') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
                 aria-current="page">Achievement</a>
-            <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium" aria-current="page">Work
+            <a href="{{ route('work-experience') }}"
+                class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium" aria-current="page">Work
                 Experience</a>
         </div>
 
@@ -51,7 +53,7 @@
                 <div class="flex mt-8 grid gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2">
                     <div class="max-w-full bg-white rounded-lg mt-3">
                         <a href="{{ route('experience.detail') }}">
-                            <img class="rounded-lg" src="{{ url('/images/d10.png') }}" alt="" />
+                            <img class="rounded-lg" src="{{ url('/images/d17.png') }}" alt="" />
                         </a>
                         <div class="mt-5">
                             <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">

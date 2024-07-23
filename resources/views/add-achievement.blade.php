@@ -4,12 +4,14 @@
 
 @section('content')
 <div class="flex gap-5 mt-12 border-b pb-5">
-    <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium" aria-current="page">About</a>
-    <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
+    <a href="{{ route('about') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
+        aria-current="page">About</a>
+    <a href="{{ route('experience') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
         aria-current="page">Experience</a>
     <a href="{{ route('achievement') }}" class="px-2.5 py-2 text-sm bg-blue-500 text-white font-medium rounded"
         aria-current="page">Achievement</a>
-    <a href="#" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium" aria-current="page">Work
+    <a href="{{ route('work-experience') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
+        aria-current="page">Work
         Experience</a>
 </div>
 
@@ -31,7 +33,7 @@
     <div class="">
         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Attribute</label>
         <select id="countries"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            class="mt-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <option selected>Select achievement attribute</option>
             <option value="US">Academic</option>
             <option value="CA">Non-academic</option>
@@ -41,7 +43,7 @@
     <div class="mt-5">
         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Category</label>
         <select id="countries"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            class="mt-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <option selected>Select achievement category</option>
             <option value="US">Academic Awards</option>
             <option value="CA">Beasiswa</option>
@@ -51,7 +53,7 @@
 
     <div class="mt-5">
         <label for="dropzone-file" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Display</label>
-        <div class="flex items-center justify-center w-full">
+        <div class="mt-5 flex items-center justify-center w-full">
             <label for="dropzone-file"
                 class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
                 <div class="flex flex-col items-center justify-center pt-5 pb-6">
@@ -72,13 +74,13 @@
     <div class="mt-5">
         <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title</label>
         <input type="email" id="helper-text" aria-describedby="helper-text-explanation"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class=" mt-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Achievement title">
     </div>
 
     <div class="mt-5">
         <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date</label>
-        <div class="relative">
+        <div class="mt-5 relative">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -96,7 +98,8 @@
         <label for="helper-text"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
         <form>
-            <div class="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+            <div
+                class="mt-5 w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
                 <div class="flex items-center justify-between px-3 py-2 border-b dark:border-gray-600">
                     <div
                         class="flex flex-wrap items-center divide-gray-200 sm:divide-x sm:rtl:divide-x-reverse dark:divide-gray-600">
