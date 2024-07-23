@@ -36,3 +36,37 @@ Route::get('/detail-achievement', function () {
 Route::get('/add-achievement', function () {
     return view('add-achievement');
 })->name('achievement.add');
+
+// fitur work experience
+Route::get('/work-experience', function () {
+    return view('work-experience');
+})->name('work-experience');
+
+Route::get('/detail-work-experience', function () {
+    return view('detail-work-experience');
+})->name('work-experience.detail');
+
+Route::get('/add-work-experience', function () {
+    return view('add-work-experience');
+})->name('work-experience.add');
+
+// fitur share portofolio
+Route::get('/share-portofolio', function () {
+    return view('share-portfolio');
+})->name('portofolio.share');
+
+Route::get('/detail-portofolio', function () {
+    return view('share-detail-portofolio');
+})->name('portofolio.detail');
+
+Route::get('/experience-portofolio', function () {
+    return view('share-experience-portofolio');
+})->name('portofolio.experience');
+
+Route::get('/achievement-portofolio', function () {
+    return view('share-achievement-portofolio');
+})->name('portofolio.achievement');
+
+Route::get('/work-portofolio', function () {
+    return view('share-work-portofolio');
+})->name('portofolio.work');
