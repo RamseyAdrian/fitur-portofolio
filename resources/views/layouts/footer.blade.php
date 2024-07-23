@@ -8,35 +8,50 @@
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Navigasi</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                            <a href="https://flowbite.com/" class="hover:underline">Home >> Lowongan >> Panggilan
+                                Tes</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://tailwindcss.com/" class="hover:underline">FAQ >> Cara Mendaftar >>
+                                Konfirmasi Pembayaran</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                            <a href="https://tailwindcss.com/" class="hover:underline">Kebijakan Privasi</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Tautan Penting</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Universitas
+                                Pertamina</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Kemenristek Dikti</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">E-Certificates</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">E-Certificates Bright-UP</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Hubungi Kami</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Privacy Policy</a>
+                            <a href="#" class="hover:underline">021-50857540 (Ext. 2252)</a>
                         </li>
-                        <li>
-                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">-</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="hover:underline">cdc@universitaspertamina.ac.id</a>
                         </li>
                     </ul>
                 </div>
