@@ -58,6 +58,11 @@ module.exports = {
         brand: {
           idle: '#1C8BC0',
           hover: '#037EB9'
+        },
+        navbar: '#0053cb',
+        navmenu: {
+          idle: '#B6DA4A',
+          hover: '#99bf27'
         }
       }
     },
