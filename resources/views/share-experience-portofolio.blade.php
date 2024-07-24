@@ -35,7 +35,7 @@
     <div class="flex gap-5 justify-between">
         <select id="attribute"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-            <option selected>Select work experience category</option>
+            <option selected>Select experience category</option>
         </select>
         <a href="#"
             class="px-2.5 py-2 text-sm bg-red-500 hover:bg-red-700 text-white font-medium rounded w-full max-w-36 inline-flex items-center justify-center"

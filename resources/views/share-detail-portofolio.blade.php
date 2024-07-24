@@ -30,4 +30,5 @@
             aperiam rem praesentium officiis eius unde rerum, debitis ducimus cum quas a at, facere voluptatibus!
             Deserunt, suscipit ipsum!</p>
     </div>
-    @endsection
+</div>
+@endsection
