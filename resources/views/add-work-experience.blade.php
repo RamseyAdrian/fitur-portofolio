@@ -8,15 +8,15 @@
         aria-current="page">About</a>
     <a href="{{ route('experience') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
         aria-current="page">Experience</a>
-    <a href="{{ route('achievement') }}" class="px-2.5 py-2 text-sm bg-blue-500 text-white font-medium rounded"
+    <a href="{{ route('achievement') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
         aria-current="page">Achievement</a>
-    <a href="{{ route('work-experience') }}" class="px-2.5 py-2 text-sm hover:bg-gray-200 rounded hover:font-medium"
+    <a href="{{ route('work-experience') }}" class="px-2.5 py-2 text-sm bg-blue-500 text-white font-medium rounded"
         aria-current="page">Work
         Experience</a>
 </div>
 
 <div class="flex mt-8 justify-between">
-    <h2 class="text-2xl font-bold">Create New Achievement</h2>
+    <h2 class="text-2xl font-bold">Create New Work Experience</h2>
 
     <div class="flex gap-3">
         <a href="{{ route('work-experience') }}"
@@ -25,7 +25,7 @@
         <a href="{{ route('achievement.add') }}"
             class="px-2.5 py-2 rounded text-sm bg-blue-500 text-white font-medium rounded flex items-center gap-2"
             aria-current="page">New
-            Achievement<img src="{{ url('images/plus-icon.png') }}" class="w-4 h-4" alt=""></a>
+            Work Experience<img src="{{ url('images/plus-icon.png') }}" class="w-4 h-4" alt=""></a>
     </div>
 </div>
 
@@ -68,7 +68,7 @@
         <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title</label>
         <input type="email" id="helper-text" aria-describedby="helper-text-explanation"
             class="mt-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Achievement title">
+            placeholder="Work experience title">
     </div>
 
     <div class="mt-5">
@@ -223,7 +223,7 @@
                     <label for="editor" class="sr-only">Publish post</label>
                     <textarea id="editor" rows="8"
                         class="block w-full px-0 text-sm text-gray-800 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
-                        placeholder="Insert achievement description" required></textarea>
+                        placeholder="Insert work experience description" required></textarea>
                 </div>
             </div>
             <div class="flex justify-between">

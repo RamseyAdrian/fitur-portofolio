@@ -35,7 +35,7 @@
     <div class="flex gap-5 justify-between">
         <select id="attribute"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-            <option selected>Select work experience category</option>
+            <option selected>Select achievement category</option>
         </select>
         <a href="#"
             class="px-2.5 py-2 text-sm bg-red-500 hover:bg-red-700 text-white font-medium rounded w-full max-w-36 inline-flex items-center justify-center"
@@ -49,16 +49,17 @@
 
     <div class="flex mt-8 grid gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2">
         <div class="max-w-full bg-white rounded-lg mt-3">
-            <a href="{{ route('experience.detail') }}">
-                <img class="rounded-lg" src="{{ url('/images/d17.png') }}" alt="" />
+            <a href="{{ route('achievement.detail') }}">
+                <img class="rounded-lg" src="{{ url('/images/d10.png') }}" alt="" />
             </a>
             <div class="mt-5">
                 <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                    Project in
-                    Class</p>
+                    Academic
+                    Awards</p>
                 <a href="#">
                     <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                        Pengembangan App Simple Banking</h5>
+                        Kualifikasi
+                        Jurnal Terbaik IEEE-2022</h5>
                 </a>
                 <div class="flex items-end justify-between">
                     <p class="text-sm">May 2022</p>
@@ -76,18 +77,20 @@
         </div>
 
         <div class="max-w-full bg-white rounded-lg mt-3">
-            <a href="{{ route('experience.detail') }}">
+            <a href="#">
                 <img class="rounded-lg" src="{{ url('/images/d9.png') }}" alt="" />
             </a>
             <div class="mt-5">
                 <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                    Project in Class</p>
+                    Academic
+                    Awards</p>
                 <a href="#">
                     <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                        Pengembangan Aplikasi Virtual</h5>
+                        Kualifikasi
+                        Jurnal Terbaik IEEE-2022</h5>
                 </a>
                 <div class="flex items-end justify-between">
-                    <p class="text-sm">June 2022</p>
+                    <p class="text-sm">May 2022</p>
                     <a href="#"
                         class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
@@ -102,18 +105,20 @@
         </div>
 
         <div class="max-w-full bg-white rounded-lg mt-3">
-            <a href="{{ route('experience.detail') }}">
+            <a href="#">
                 <img class="rounded-lg" src="{{ url('/images/d8.png') }}" alt="" />
             </a>
             <div class="mt-5">
                 <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                    Project Intern</p>
+                    Academic
+                    Awards</p>
                 <a href="#">
                     <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                        Pengembangan Aplikasi Agency</h5>
+                        Kualifikasi
+                        Jurnal Terbaik IEEE-2022</h5>
                 </a>
                 <div class="flex items-end justify-between">
-                    <p class="text-sm">July 2022</p>
+                    <p class="text-sm">May 2022</p>
                     <a href="#"
                         class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
@@ -128,18 +133,20 @@
         </div>
 
         <div class="max-w-full bg-white rounded-lg mt-3">
-            <a href="{{ route('experience.detail') }}">
+            <a href="#">
                 <img class="rounded-lg" src="{{ url('/images/d13.png') }}" alt="" />
             </a>
             <div class="mt-5">
                 <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                    Project Intern</p>
+                    Academic
+                    Awards</p>
                 <a href="#">
                     <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                        Pengembangan Mobile App</h5>
+                        Kualifikasi
+                        Jurnal Terbaik IEEE-2022</h5>
                 </a>
                 <div class="flex items-end justify-between">
-                    <p class="text-sm">August 2022</p>
+                    <p class="text-sm">May 2022</p>
                     <a href="#"
                         class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
@@ -159,16 +166,17 @@
 
         <div class="flex mt-8 grid gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2">
             <div class="max-w-full bg-white rounded-lg mt-3">
-                <a href="{{ route('experience.detail') }}">
-                    <img class="rounded-lg" src="{{ url('/images/d10.png') }}" alt="" />
+                <a href="#">
+                    <img class="rounded-lg" src="{{ url('/images/d7.png') }}" alt="" />
                 </a>
                 <div class="mt-5">
                     <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                        Project in
-                        Class</p>
+                        Academic
+                        Awards</p>
                     <a href="#">
                         <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                            Pengembangan App Simple Banking</h5>
+                            Kualifikasi
+                            Jurnal Terbaik IEEE-2022</h5>
                     </a>
                     <div class="flex items-end justify-between">
                         <p class="text-sm">May 2022</p>
@@ -186,18 +194,20 @@
             </div>
 
             <div class="max-w-full bg-white rounded-lg mt-3">
-                <a href="{{ route('experience.detail') }}">
-                    <img class="rounded-lg" src="{{ url('/images/d9.png') }}" alt="" />
+                <a href="#">
+                    <img class="rounded-lg" src="{{ url('/images/d16.png') }}" alt="" />
                 </a>
                 <div class="mt-5">
                     <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                        Project in Class</p>
+                        Academic
+                        Awards</p>
                     <a href="#">
                         <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                            Pengembangan Aplikasi Virtual</h5>
+                            Kualifikasi
+                            Jurnal Terbaik IEEE-2022</h5>
                     </a>
                     <div class="flex items-end justify-between">
-                        <p class="text-sm">June 2022</p>
+                        <p class="text-sm">May 2022</p>
                         <a href="#"
                             class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Read more
@@ -212,18 +222,20 @@
             </div>
 
             <div class="max-w-full bg-white rounded-lg mt-3">
-                <a href="{{ route('experience.detail') }}">
-                    <img class="rounded-lg" src="{{ url('/images/d8.png') }}" alt="" />
+                <a href="#">
+                    <img class="rounded-lg" src="{{ url('/images/d14.png') }}" alt="" />
                 </a>
                 <div class="mt-5">
                     <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                        Project Intern</p>
+                        Academic
+                        Awards</p>
                     <a href="#">
                         <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                            Pengembangan Aplikasi Agency</h5>
+                            Kualifikasi
+                            Jurnal Terbaik IEEE-2022</h5>
                     </a>
                     <div class="flex items-end justify-between">
-                        <p class="text-sm">July 2022</p>
+                        <p class="text-sm">May 2022</p>
                         <a href="#"
                             class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Read more
@@ -238,18 +250,20 @@
             </div>
 
             <div class="max-w-full bg-white rounded-lg mt-3">
-                <a href="{{ route('experience.detail') }}">
-                    <img class="rounded-lg" src="{{ url('/images/d13.png') }}" alt="" />
+                <a href="#">
+                    <img class="rounded-lg" src="{{ url('/images/d15.png') }}" alt="" />
                 </a>
                 <div class="mt-5">
                     <p class="p-1 bg-blue-500 text-white rounded text-sm font-medium max-w-32 text-center mb-2">
-                        Project Intern</p>
+                        Academic
+                        Awards</p>
                     <a href="#">
                         <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                            Pengembangan Mobile App</h5>
+                            Kualifikasi
+                            Jurnal Terbaik IEEE-2022</h5>
                     </a>
                     <div class="flex items-end justify-between">
-                        <p class="text-sm">August 2022</p>
+                        <p class="text-sm">May 2022</p>
                         <a href="#"
                             class="mt-2 inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Read more
